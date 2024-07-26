@@ -15,6 +15,7 @@ function Beam({ index }: { index: number }) {
             style={{
                 width: "6px",
                 transform: "translateY(-20%)",
+                //@ts-ignore
                 "--delay": `${index * 0.5}s`,
             }}
         >
